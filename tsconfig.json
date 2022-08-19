@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
-    "target": "esnext",
+    "declaration": true,
+    "target": "ES5",
+    "downlevelIteration": true,
     "module": "esnext",
     "strict": false,
     "jsx": "preserve",
@@ -15,11 +17,6 @@
     "types": [
       "webpack-env"
     ],
-    "paths": {
-      "@/*": [
-        "src/*"
-      ]
-    },
     "lib": [
       "esnext",
       "dom",
