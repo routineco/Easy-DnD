@@ -9,7 +9,6 @@
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
     "@mdi/font": "^3.6.95",
-    "@segi/template": "file:./lib",
     "core-js": "^3.6.5",
     "custom-event-polyfill": "^1.0.7",
     "regenerator-runtime": "^0.13.7",
