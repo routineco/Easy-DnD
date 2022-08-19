@@ -283,6 +283,7 @@ export default class DragMixin extends DragAwareMixin {
     finishDrag () {
         this.downEvent = null;
         this.scrollContainer = null;
+        this.ignoreNextClick = false;
 
         if (this.dragStarted) {
             document.documentElement.classList.remove('drag-in-progress');
